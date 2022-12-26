@@ -16,6 +16,13 @@ main {
 article {
   padding: 40px 0;
 }
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+}
+p {
+  font-size: 1rem;
+}
 .container-main {
   margin: 0 auto;
   width: 80%;
@@ -45,9 +52,7 @@ article {
   align-items: center;
   gap: 5px;
 }
-h2 {
-  font-family: "Bebas Neue", cursive;
-}
+
 .red {
   background-color: red;
   height: 360px;
@@ -102,6 +107,9 @@ h2 {
 .graphics > p {
   margin-left: 8%;
 }
+.analyticsArticle {
+  height: 300px;
+}
 .analytics {
   height: 150px;
   list-style: none;
@@ -125,7 +133,6 @@ h2 {
   font-family: "Roboto";
   font-style: italic;
   font-weight: 400;
-  line-height: 23px;
   text-align: center;
 }
 .tests {
@@ -141,10 +148,10 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  height: 480px;
+  height: 100%;
 }
 .insights {
-  height: 150px;
+  height: 100%;
   list-style: none;
   display: flex;
   align-items: center;
@@ -153,8 +160,8 @@ h2 {
   gap: 20px;
 }
 .iten-insights {
+  height: 200px;
   padding: 5px;
-  height: 100%;
   width: 20%;
   display: flex;
   align-items: center;
@@ -234,12 +241,12 @@ footer {
   background-color: #00aec0;
   display: flex;
 }
-.next-project > div  {
+.next-project > div {
   padding: 10px 0;
   display: flex;
   gap: 150px;
 }
-.next-project > div  > h2{
+.next-project > div > h2 {
   color: white;
 }
 .footer-end > div {
@@ -250,4 +257,22 @@ footer {
 .footer-end > div > img {
   padding: 10px;
   height: 40px;
+}
+@media (max-width: 1200px) {
+  .iten-insights {
+    height: 100px;
+    width: 40%;
+  }
+}
+@media (max-width: 1000px) {
+  main{
+    padding: 0;
+  }
+  .logo{
+    display: none;
+  }
+  .iten-insights {
+    height: 140px;
+    width: 40%;
+  }
 }
