@@ -204,12 +204,14 @@ article {
   margin-bottom: 40px;
 }
 .wireframe-images {
-  display: flex;
-  gap: 20px;
-  height: auto;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .wireframe-images > img {
-  width: 25%;
+  width: 23%;
   height: auto;
 }
 .project-finily {
@@ -253,6 +255,7 @@ article {
   margin: 0 auto;
 }
 .info-app > li {
+  margin-top: 10px;
   height: 100%;
   list-style: none;
   display: flex;
@@ -284,13 +287,13 @@ article {
   background-color: #003e62;
 }
 .color-two {
-  background-color: #CC0830;
+  background-color: #cc0830;
 }
 .color-tree {
-  background-color: #9013FE;
+  background-color: #9013fe;
 }
 .color-five {
-  background-color: #E02021;
+  background-color: #e02021;
 }
 .itens-details > img {
   margin: 31px;
