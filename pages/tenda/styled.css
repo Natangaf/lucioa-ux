@@ -64,7 +64,7 @@ article {
 .before {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 20px;
 }
 .app-before {
@@ -78,7 +78,9 @@ article {
 .app-before > img {
   width: 13%;
 }
-
+.before > p {
+ margin: 0 auto;
+}
 .mission {
   display: flex;
   flex-direction: column;
@@ -204,11 +206,11 @@ article {
   margin-bottom: 40px;
 }
 .wireframe-images {
-    height: auto;
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    align-items: flex-start;
+  height: auto;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .wireframe-images > img {
   width: 23%;
@@ -265,6 +267,9 @@ article {
 .shape {
   height: 12px;
   width: 7px;
+}
+.colorRed {
+  color: #cc0830;
 }
 .details {
   list-style: none;
@@ -352,6 +357,12 @@ article {
   height: 40px;
 }
 @media (max-width: 1350px) {
+  .cenary > img {
+    width: 40%;
+  }
+  .article-cenary {
+    width: 60%;
+  }
   .iten-insights {
     height: 130px;
     width: 40%;
@@ -364,6 +375,16 @@ article {
   }
 }
 @media (max-width: 1250px) {
+  .cenary > img {
+    width: 37%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .article-cenary {
+    width: 60%;
+  }
   .analyticsArticle {
     height: 400px;
   }
