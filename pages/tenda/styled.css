@@ -79,7 +79,7 @@ article {
   width: 13%;
 }
 .before > p {
- margin: 0 auto;
+  margin: 0 auto;
 }
 .mission {
   display: flex;
@@ -154,7 +154,7 @@ article {
 .valid {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
   height: 100%;
 }
 .insights {
@@ -192,11 +192,11 @@ article {
   align-items: flex-start;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 10px;
+  gap: 25px;
 }
 
 .app-moldin > img {
-  width: 19%;
+  width: 18%;
 }
 .wireframe {
   width: 100%;
@@ -217,7 +217,7 @@ article {
   height: auto;
 }
 .project-finily {
-  margin-top: 50px;
+  margin: 10% 0;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -371,7 +371,7 @@ article {
     height: 300px;
   }
   .app-moldin > img {
-    width: 18%;
+    width: 16%;
   }
 }
 @media (max-width: 1250px) {
@@ -389,7 +389,12 @@ article {
     height: 400px;
   }
   .app-moldin > img {
-    width: 18%;
+    width: 16%;
+  }
+}
+@media (max-width: 1450px) {
+  .app-moldin > img {
+    width: 16%;
   }
 }
 @media (max-width: 1100px) {
@@ -404,6 +409,6 @@ article {
     width: 40%;
   }
   .app-moldin > img {
-    width: 19%;
+    width: 16%;
   }
 }
