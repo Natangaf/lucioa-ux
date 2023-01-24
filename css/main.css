@@ -145,9 +145,7 @@ h6 {
   header .logo {
     margin-top: 100px;
   }
-  .logo > a > img {
-    width: 90%;
-  }
+
   header nav ul {
     display: block;
     overflow: hidden;
