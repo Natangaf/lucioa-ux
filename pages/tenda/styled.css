@@ -17,6 +17,7 @@ article {
 .container {
   margin: 0 auto;
   width: 90%;
+  max-width:1200px;
   height: 100%;
 }
 .header-Main {
@@ -88,6 +89,7 @@ article {
 }
 .pass {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   gap: 20px;
@@ -395,6 +397,7 @@ article {
   }
 }
 .BntTop {
+  background-color:white;
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -407,6 +410,7 @@ article {
   border: 2px solid;
   border-radius: 5px;
   padding: 3px 5px;
+  justify-content: center;
   visibility:hidden;
 }
 
